@@ -1,0 +1,32 @@
+.blue-container {
+	height: 55%;
+    background: #258DED;
+    position: relative;
+}
+
+.blue-container-img {
+	position: absolute;
+    width: 50%;
+    transform: translate(50%, 50%);
+}
+
+.blue-container-text {
+	position: absolute;
+    text-align: center;
+    top: 70%;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.text-div {
+	margin: 15% 15% 0% 15%;
+    font-size: 12px;
+    color: #04804C;
+}
+
+.start-btn {
+	color: white;
+	background: #3E6292;
+	margin-top: 15%;
+    width: 75%;
+}
