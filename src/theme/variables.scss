@@ -76,6 +76,16 @@
     --ion-color-light-tint: #f5f6f9;
 
     --ion-font-family: 'Rubik-Regular';
+    
+    ion-segment-button {
+        --background: #258DED;
+        --background-checked: #0f69bd;
+        --color: #fff;
+        --color-checked: #000;
+
+
+    }
+
 }
 
 @font-face {
@@ -87,3 +97,28 @@
     font-family: 'Rubik-Bold';
     src: url('../assets/font/Rubik-Bold.ttf');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
