@@ -4,8 +4,14 @@
 		<div class="bg-overlay d-flex">
 			<p>Prime Messages</p>
 		</div>
-		<div>
+		<div class="bg-overlay2">
 			<p>Enter your Phone Number in the below field, So that we can send OTP and you can Register.</p>
+		</div>
+		<div class="bg-overlay3">
+			<input class="number-input" type="text" maxlength="10" pattern="[0-9]{10}" name="phnum" placeholder="Enter your number here...">
+		</div>
+		<div class="bg-overlay4">
+			<button class="next-button" routerLink="/smsverification" type="button"><img src="./assets/image/next-arrow.png"></button>
 		</div>
 	</div>
 </ion-content>

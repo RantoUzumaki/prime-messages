@@ -9,12 +9,12 @@ import { NumberentryPagePageRoutingModule } from './numberentry-page-routing.mod
 import { NumberentryPagePage } from './numberentry-page.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    NumberentryPagePageRoutingModule
-  ],
-  declarations: [NumberentryPagePage]
+  	imports: [
+	    CommonModule,
+	    FormsModule,
+	    IonicModule,
+	    NumberentryPagePageRoutingModule
+  	],
+  	declarations: [NumberentryPagePage]
 })
 export class NumberentryPagePageModule {}
