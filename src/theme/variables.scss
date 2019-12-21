@@ -76,14 +76,16 @@
     --ion-color-light-tint: #f5f6f9;
 
     --ion-font-family: 'Rubik-Regular';
-    
-    ion-segment-button {
-        --background: #258DED;
-        --background-checked: #0f69bd;
-        --color: #fff;
-        --color-checked: #000;
 
+    super-tab-button {
+        --st-label-color-active: #0053a1;
+        --st-label-color-inactive: #fff;
+    }
 
+    super-tabs-toolbar {
+        --super-tabs-toolbar-background: #258DED;
+        --st-scrollable-toolbar-padding-left: 0px;
+        --st-indicator-color: #0053a1
     }
 
 }

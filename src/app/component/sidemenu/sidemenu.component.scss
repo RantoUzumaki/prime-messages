@@ -1,0 +1,43 @@
+.profiediv {
+	width: 100%;
+	height: 304px;
+	position: relative;
+}
+
+.profilepicdivbg {
+	width: 100%;
+	height: 100%
+}
+
+.profilepicbg {
+	width: 100%;
+	height: 100%;
+	filter: blur(5px)
+}
+
+.profilepicdiv {
+	position: absolute;
+	top: 15%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.profilepic {
+	width: 60%;
+	height: 60%;
+	border-radius: 100%
+}
+
+.profilenamediv {
+	position: absolute;
+	top: 85%;
+	width: 100%;
+	text-align: center;
+}
+
+.profilename {
+	color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}

@@ -10,12 +10,15 @@ import { MenuPagePage } from './menu-page.page';
 
 import { SidemenuComponent } from '../../component/sidemenu/sidemenu.component'
 
+import { SuperTabsModule } from '@ionic-super-tabs/angular';
+
 @NgModule({
   	imports: [
     	CommonModule,
 	    FormsModule,
 	    IonicModule,
-	    MenuPagePageRoutingModule
+	    MenuPagePageRoutingModule,
+	    SuperTabsModule,
   	],
   	declarations: [MenuPagePage, SidemenuComponent]
 })

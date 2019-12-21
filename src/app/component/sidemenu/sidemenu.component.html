@@ -1,16 +1,26 @@
 <ion-menu side="start" menuId="custom" class="my-custom-menu" swipeGesture="false">
 	<ion-header>
-	    <ion-toolbar color="tertiary">
-	        <ion-title>Custom Menu</ion-title>
+	    <ion-toolbar>
+	        <div class="profiediv">
+	        	<div class="profilepicdivbg">
+	        		<img class="profilepicbg" src="https://images.unsplash.com/photo-1495344517868-8ebaf0a2044a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+	        		<div class="profilepicdiv">
+		        		<img class="profilepic" src="https://image.shutterstock.com/image-photo/white-transparent-leaf-on-mirror-260nw-1029171697.jpg">
+		        	</div>
+		        	<div class="profilenamediv">
+		        		<p class="profilename">User Name</p>
+		        	</div>
+	        	</div>
+	        </div>
 	    </ion-toolbar>
 	</ion-header>
 	<ion-content>
 	    <ion-list>
-		    <ion-item>Menu Item</ion-item>
-		    <ion-item>Menu Item</ion-item>
-		    <ion-item>Menu Item</ion-item>
-		    <ion-item>Menu Item</ion-item>
-		    <ion-item>Menu Item</ion-item>
+		    <ion-item menuClosed="left" (click)="menu1()">Menu Item</ion-item>
+		    <ion-item menuClosed="left" (click)="menu2()">Menu Item</ion-item>
+		    <ion-item menuClosed="left" (click)="menu3()">Menu Item</ion-item>
+		    <ion-item menuClosed="left" (click)="menu4()">Menu Item</ion-item>
+		    <ion-item menuClosed="left" (click)="menu5()">Menu Item</ion-item>
 		</ion-list>
 	</ion-content>
 </ion-menu>
