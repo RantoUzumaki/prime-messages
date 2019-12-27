@@ -16,8 +16,9 @@ export class SidemenuComponent implements OnInit {
 
     ngOnInit() {}
 
-    menu1() {
-    	this.route.navigate(['landing'])
+    home() {
+    	this.route.navigate(['menu'])
+        this.menu.close()
     }
 
 }

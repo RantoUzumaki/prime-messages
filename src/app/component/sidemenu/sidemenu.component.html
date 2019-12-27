@@ -1,11 +1,11 @@
-<ion-menu side="start" menuId="custom" class="my-custom-menu" swipeGesture="false">
+<ion-menu side="start" contentId="side-menu" class="my-custom-menu" swipeGesture="false">
 	<ion-header>
 	    <ion-toolbar>
 	        <div class="profiediv">
 	        	<div class="profilepicdivbg">
-	        		<img class="profilepicbg" src="https://images.unsplash.com/photo-1495344517868-8ebaf0a2044a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+	        		<img class="profilepicbg" src="http://cdn.shopify.com/s/files/1/0879/4406/products/edward_caramel-tortoise_boys-glasses-for-kids_jonas-paul-eyewear_4d0ce1c3-bb2e-4a48-b439-9d28ea64d305_grande.jpg?v=1571269602">
 	        		<div class="profilepicdiv">
-		        		<img class="profilepic" src="https://image.shutterstock.com/image-photo/white-transparent-leaf-on-mirror-260nw-1029171697.jpg">
+		        		<img class="profilepic" src="http://cdn.shopify.com/s/files/1/0879/4406/products/edward_caramel-tortoise_boys-glasses-for-kids_jonas-paul-eyewear_4d0ce1c3-bb2e-4a48-b439-9d28ea64d305_grande.jpg?v=1571269602">
 		        	</div>
 		        	<div class="profilenamediv">
 		        		<p class="profilename">User Name</p>
@@ -16,13 +16,13 @@
 	</ion-header>
 	<ion-content>
 	    <ion-list>
-		    <ion-item menuClosed="left" (click)="menu1()">Menu Item</ion-item>
-		    <ion-item menuClosed="left" (click)="menu2()">Menu Item</ion-item>
-		    <ion-item menuClosed="left" (click)="menu3()">Menu Item</ion-item>
-		    <ion-item menuClosed="left" (click)="menu4()">Menu Item</ion-item>
-		    <ion-item menuClosed="left" (click)="menu5()">Menu Item</ion-item>
+		    <ion-item menuClosed="left" (click)="home()"><img class="sidemenuimg" src="./assets/image/home.png">Home</ion-item>
+		    <ion-item menuClosed="left" (click)="search()"><img class="sidemenuimg" src="./assets/image/search.png">Search</ion-item>
+		    <ion-item menuClosed="left" (click)="create()"><img class="sidemenuimg" src="./assets/image/create.png">Create</ion-item>
+		    <ion-item menuClosed="left" (click)="manage()"><img class="sidemenuimg" src="./assets/image/manage.png">Manage</ion-item>
+		    <ion-item menuClosed="left" (click)="setting()"><img class="sidemenuimg" src="./assets/image/setting.png">Settings</ion-item>
 		</ion-list>
 	</ion-content>
 </ion-menu>
 
-<ion-router-outlet main></ion-router-outlet>
+<ion-router-outlet id="side-menu"></ion-router-outlet>

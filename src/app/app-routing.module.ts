@@ -23,6 +23,10 @@ const routes: Routes = [
         path: 'menu',
         loadChildren: () => import('./page/menu-page/menu-page.module').then( m => m.MenuPagePageModule)
     },
+  {
+    path: 'channel',
+    loadChildren: () => import('./page/channel-page/channel-page.module').then( m => m.ChannelPagePageModule)
+  },
 ];
 
 @NgModule({

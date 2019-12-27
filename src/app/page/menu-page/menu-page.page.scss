@@ -20,3 +20,269 @@
     font-size: 24px;
     letter-spacing: 1px;
 }
+
+.message-main-div {
+	width: 95%;
+    height: auto;
+    margin: 15px auto 2% auto;
+    box-shadow: 0px 0px 4px;
+    border-radius: 5px;
+}
+
+.message-header-div {
+	display: flex;
+    width: 100%;
+    padding: 5px;
+}
+
+.message-channel-image-div {
+	width: 15%;
+    margin: auto;
+    text-align: center;
+}
+
+.message-channel-image {
+	width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.message-channel-name-div {
+	width: 70%;
+    display: flex;
+}
+
+.message-channel-name{
+	margin: auto auto auto 5%;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.message-channel-goto-div {
+	width: 10%;
+    display: flex;
+}
+
+.message-channel-goto {
+	margin: auto 0px auto auto;
+    background: white;
+}
+
+.message-body-div {
+	padding: 5px;
+}
+
+.message-body-image-div {
+
+}
+
+.message-body-image {
+
+}
+
+.message-body-text-div {
+	text-align: justify;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.message-body-text {
+	margin: auto;
+}
+
+.message-footer-div {
+	display: flex;
+    width: 100%;
+    padding: 5px;
+}
+
+.message-channel-location-div {
+	display: flex;
+    width: 50%;
+}
+
+.message-channel-location {
+    margin: 0;
+    color: #777;
+    font-size: 12px;
+}
+
+.message-channel-date-div {
+	display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.message-channel-date {
+	margin: 0;
+    color: #777;
+    font-size: 12px;
+}
+
+.homepage-div {
+	width: 95%;
+    margin: auto;
+    background: #333;
+    border-radius: 5px;
+}
+
+.homepage-text-div {
+	display: flex;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.homepage-text {
+	margin: 0;
+}
+
+.homepage-button-div {
+	text-align: center;
+    padding-bottom: 10px;
+}
+
+.homepage-button {
+	height: 25px;
+    margin: auto;
+    background: #258ded;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.suggestion-div {
+	width: 95%;
+    display: flex;
+    margin: 10px auto 0px auto;
+    padding: 5px 0px 5px 0px;
+}
+
+.suggestion {
+	margin: 0;
+	width: 40%;
+	font-size: 12px;
+	color: #555;
+	text-align: center;
+}
+
+.hr {
+	margin: auto 0px;
+    border-bottom: 1px solid #222;
+    width: 30%;
+}
+
+.channel-main-div {
+	width: 95%;
+    display: flex;
+    margin: 10px auto;
+    box-shadow: 0px 0px 4px;
+    border-radius: 5px;
+	height: 120px
+}
+
+.channel-sub-div1 {
+	width: 30%;
+}
+
+.channel-sub-div2 {
+	width: 70%;
+}
+
+.channel-image-div {
+	width: 100%;
+	height: 120px;
+}
+
+.channel-image {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.channel-nav-button {
+	margin: auto 0px auto auto;
+    background: white;
+}
+
+.channel-nav-button-div {
+	width: 25%;
+	display: flex;
+}
+
+.channel-head-div {
+	display: flex;
+    width: 98%;
+    height: 40%;
+}
+
+.channel-head {
+	width: 75%;
+	margin: auto 0px auto 5%;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+.channel-footer-div {
+	height: 30%;
+    width: 95%;
+    display: flex
+}
+
+.channel-footer2 {
+	color: #777;
+    font-size: 12px;
+    width: 100%;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.channel-body-div {
+	height: 30%;
+    width: 100%;
+    display: flex
+}
+
+.channel-body {
+    width: 100%;
+    margin: auto 0px auto 5%;
+    color: #333;
+}
+
+.channel-footer1 {
+	margin: auto auto auto 15%;
+    font-size: 12px;
+    padding-top: 15%;
+    color: #777;
+}
+
+.channel-footer-subdiv1 {
+	width: 40%;
+    display: flex;
+}
+
+.channel-footer-subdiv2 {
+	width: 60%;
+    text-align: end;
+    display: flex;
+}
+
+.distance {
+	margin: auto;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+    color: #0062cc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

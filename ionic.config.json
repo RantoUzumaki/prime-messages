@@ -1,5 +1,7 @@
 {
   "name": "Prime Messages",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
