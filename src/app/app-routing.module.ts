@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'channel',
     loadChildren: () => import('./page/channel-page/channel-page.module').then( m => m.ChannelPagePageModule)
   },
+  {
+    path: 'channelinfo',
+    loadChildren: () => import('./page/channelinfo-page/channelinfo-page.module').then( m => m.ChannelinfoPagePageModule)
+  },
 ];
 
 @NgModule({
