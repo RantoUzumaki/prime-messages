@@ -9,12 +9,12 @@ import { ChannelinfoPagePageRoutingModule } from './channelinfo-page-routing.mod
 import { ChannelinfoPagePage } from './channelinfo-page.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    ChannelinfoPagePageRoutingModule
-  ],
-  declarations: [ChannelinfoPagePage]
+    imports: [
+    	CommonModule,
+    	FormsModule,
+    	IonicModule,
+    	ChannelinfoPagePageRoutingModule
+    ],
+  	declarations: [ChannelinfoPagePage]
 })
 export class ChannelinfoPagePageModule {}
