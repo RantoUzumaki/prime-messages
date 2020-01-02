@@ -21,4 +21,9 @@ export class SidemenuComponent implements OnInit {
         this.menu.close()
     }
 
+    search() {
+        this.route.navigate(['search'])
+        this.menu.close()
+    }
+
 }

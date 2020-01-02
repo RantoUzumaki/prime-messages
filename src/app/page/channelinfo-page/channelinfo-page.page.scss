@@ -3,6 +3,7 @@
     height: 100%;
     padding: 0px;
     margin: 0px;
+    background: #333
 }
 
 .channel-info-image-div {
@@ -55,87 +56,143 @@
 }
 
 .channel-info-div {
-
+	width: 90%;
+	margin: auto;
 }
 
 .channel-info-name-div {
-
+	display: flex;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    padding: 3%;
 }
 
 .channel-name-div {
-
+	width: 50%;
+    display: flex;
+    margin: auto auto auto 5%;
 }
 
 .channel-name {
-
+    margin: 0px;
+    font-size: 16px;
+    color: #666
 }
 
 .channel-nametext-div {
-
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 5% auto auto;
 }
 
 .channel-nametext {
-
+	margin: 0px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bolder;
 }
 
 .channel-info-type-div {
-
+	display: flex;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    padding: 3%;
+    margin-top: 3%
 }
 
 .channel-type-div {
-
+	width: 50%;
+    display: flex;
+    margin: auto auto auto 5%;
 }
 
 .channel-type {
-
+	margin: 0px;
+    font-size: 16px;
+    color: #666
 }
 
 .channel-typetext-div {
-
+	width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 5% auto auto;
 }
 
 .channel-typetext {
-
+	margin: 0px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bolder;
 }
 
 .channel-info-location-div {
-
+	display: flex;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    padding: 3%;
+    margin-top: 3%
 }
 
 .channel-location-div {
-
+	width: 50%;
+    display: flex;
+    margin: auto auto auto 5%;
 }
 
 .channel-location {
-
+	margin: 0px;
+    font-size: 16px;
+    color: #666
 }
 
 .channel-locationtext-div {
-
+	width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 5% auto auto;
 }
 
 .channel-locationtext {
-
+	margin: 0px;
+    color: #333;
+    font-size: 18px;
+    font-weight: bolder;
 }
 
 .channel-info-description-div{
-
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    padding: 3%;
+    margin-top: 3%;
 }
 
 .channel-description-div {
-
+    width: 100%;
+    margin-left: 5%;
+    color: #666;
 }
 
 .channel-description {
-
+    margin: 0px;
 }
 
 .channel-descriptiontext-div {
-
+    width: 100%;
+    margin-left: 5%
 }
 
 .channel-descriptiontext {
-
+    width: 90%;
+    background: #333;
+    color: white;
+    text-align: justify;
+    padding: 2%;
 }
 
 

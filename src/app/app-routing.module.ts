@@ -31,6 +31,10 @@ const routes: Routes = [
     path: 'channelinfo',
     loadChildren: () => import('./page/channelinfo-page/channelinfo-page.module').then( m => m.ChannelinfoPagePageModule)
   },
+  {
+    path: 'search',
+    loadChildren: () => import('./page/search-page/search-page.module').then( m => m.SearchPagePageModule)
+  },
 ];
 
 @NgModule({
