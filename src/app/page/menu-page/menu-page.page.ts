@@ -14,9 +14,4 @@ export class MenuPagePage implements OnInit {
 
   	ngOnInit() {}
 
-  	getUrl() {
-    	localStorage.setItem("url", window.location.href)
-    	this.route.navigate(['channel'])
-  	}
-
 }

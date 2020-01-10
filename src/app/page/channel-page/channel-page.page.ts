@@ -12,13 +12,4 @@ export class ChannelPagePage implements OnInit {
 
     ngOnInit() {}
 
-    backBtn() {
-    	var url = localStorage.url
-    	if(url == "http://localhost:8100/search") {
-    		this.route.navigate(['search'])
-    	} else if(url == "http://localhost:8100/menu") {
-    		this.route.navigate(['menu'])
-    	}
-    }
-
 }

@@ -26,4 +26,14 @@ export class SidemenuComponent implements OnInit {
         this.menu.close()
     }
 
+    create() {
+        this.route.navigate(['createchannel'])
+        this.menu.close()
+    }
+
+    manage() {
+        this.route.navigate(['manageChannel'])
+        this.menu.close()
+    }
+
 }

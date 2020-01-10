@@ -1,0 +1,189 @@
+ion-content {
+	--background: #333;	
+}
+
+.main-div {
+	background: #333;
+}
+
+.back-button-div {
+	position: fixed;
+    margin: 8%;
+}
+
+.back-button {
+	background: transparent;
+    color: white;
+    font-size: 30px;
+    padding: 0px !important;
+}
+
+.back-button-icon {
+
+}
+
+.avatar-div {
+	width: 100%;
+}
+
+.avatar-sub-div {
+	display: flex;
+    justify-content: center;
+}
+
+.avatar-image {
+	width: 200px;
+    height: 200px;
+}
+
+.channel-name-main-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 2% 0%;
+}
+
+.channel-name-div {
+	width: 90%;
+}
+
+.channel-name-item {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.channel-name-label {
+	color: #888;
+}
+
+.channel-name-input {
+    text-align: center;
+}
+
+.channel-type-main-div {
+	display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 2% 0%;
+}
+
+.channel-type-div {
+	width: 90%;
+}
+
+.channel-type-item {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.channel-type-label {
+	color: #888;
+}
+
+.channel-type-input {
+    text-align: center;
+}
+
+.channel-desc-main-div {
+	display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 2% 0%;
+}
+
+.channel-desc-div {
+	width: 90%;
+}
+
+.channel-type-item {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.channel-desc-label {
+	color: #888;
+}
+
+.channel-desc-input {
+    text-align: center;
+}
+
+.channel-location-main-div {
+	display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 2% 0%;
+}
+
+.channel-location-div {
+	width: 90%;
+}
+
+.channel-location-item {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.channel-location-label {
+	color: #888;
+}
+
+.channel-location-input {
+    text-align: center;
+}
+
+.channel-pvt-main-div {
+    display: flex;
+    width: 100%;
+    margin: 2% 0;
+}
+
+.channel-pvt-div {
+	width: 90%;
+    margin: auto;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    height: 40px;
+}
+
+.channel-pvt-checkbox-div {
+	width: 15%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+ion-checkbox {
+	--background: #333;
+	--background-checked: #333;
+	--checkmark-color: #fff;
+	--border-color: #333;
+	--border-color-checked: #333;
+}
+
+.channel-pvt-label-div {
+    width: 85%;
+    display: flex;
+    margin: auto;
+}
+
+.channel-pvt-label {
+	margin: 0px;
+}
+
+.channel-create-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2% 0px;
+}
+
+.channel-create-btn {
+    width: 30%;
+    height: 40px;
+    background: #0062cc;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+}

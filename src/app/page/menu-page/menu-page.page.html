@@ -62,7 +62,7 @@
 						<p class="homepage-text">You have 2 subscribed channels, Subscribe more channels to get latest updates.</p>
 					</div>
 					<div class="homepage-button-div">
-						<button class="homepage-button" type="button">Click Here</button>
+						<button routerLink="/search" class="homepage-button" type="button">Click Here</button>
 					</div>
 				</div>
 
@@ -85,7 +85,7 @@
 						<div class="channel-head-div">
 							<p class="channel-head">Test Channel</p>
 							<div class="channel-nav-button-div">
-								<button (click)="getUrl()" class="channel-nav-button" type="button"><i class="fas fa-chevron-right"></i></button>
+								<button routerLink="/channel" class="channel-nav-button" type="button"><i class="fas fa-chevron-right"></i></button>
 							</div>
 						</div>
 						<div class="channel-body-div">
@@ -104,6 +104,7 @@
 
 			</ion-content>
 		</super-tab>
+		
 		<super-tab>
 			<ion-content>
 				

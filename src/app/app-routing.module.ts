@@ -35,6 +35,18 @@ const routes: Routes = [
     path: 'search',
     loadChildren: () => import('./page/search-page/search-page.module').then( m => m.SearchPagePageModule)
   },
+  {
+    path: 'createchannel',
+    loadChildren: () => import('./page/create-channel-page/create-channel-page.module').then( m => m.CreateChannelPagePageModule)
+  },
+  {
+    path: 'manageChannel',
+    loadChildren: () => import('./page/manage-channel-page/manage-channel-page.module').then( m => m.ManageChannelPagePageModule)
+  },
+  {
+    path: 'managechannelsend',
+    loadChildren: () => import('./page/manage-channel-send-page/manage-channel-send-page.module').then( m => m.ManageChannelSendPagePageModule)
+  },
 ];
 
 @NgModule({

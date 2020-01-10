@@ -1,0 +1,57 @@
+<ion-content>
+	<div class="main-div">
+		<div class="back-button-div">
+			<button class="back-button" routerLink="/menu" type="button"><i class="back-button-icon fas fa-angle-left"></i></button>
+		</div>
+		<div class="avatar-div">
+			<div class="avatar-sub-div">
+				<img class="avatar-image" src="./assets/image/profile.png">	
+			</div>
+		</div>
+		<div class="channel-name-main-div">
+			<div class="channel-name-div">
+				<ion-item class="channel-name-item">
+					<ion-label class="channel-name-label" position="floating">Channel Name</ion-label>
+					<ion-input class="channel-name-input"></ion-input>
+				</ion-item>
+			</div>
+		</div>
+		<div class="channel-type-main-div">
+			<div class="channel-type-div">
+				<ion-item class="channel-type-item">
+					<ion-label class="channel-type-label" position="floating">Channel Type</ion-label>
+					<ion-input class="channel-type-input"></ion-input>
+				</ion-item>
+			</div>
+		</div>
+		<div class="channel-desc-main-div">
+			<div class="channel-desc-div">
+				<ion-item class="channel-type-item">
+					<ion-label class="channel-desc-label" position="floating">Channel Description</ion-label>
+					<ion-textarea class="channel-desc-input"></ion-textarea>
+				</ion-item>
+			</div>
+		</div>
+		<div class="channel-location-main-div">
+			<div class="channel-location-div">
+				<ion-item class="channel-location-item">
+					<ion-label class="channel-location-label" position="floating">Channel Location</ion-label>
+					<ion-input class="channel-location-input"></ion-input>
+				</ion-item>
+			</div>
+		</div>
+		<div class="channel-pvt-main-div">
+			<div class="channel-pvt-div">
+				<div class="channel-pvt-checkbox-div">
+					<ion-checkbox></ion-checkbox>
+				</div>
+				<div class="channel-pvt-label-div">
+					<p class="channel-pvt-label">Private Channel</p>
+				</div>
+			</div>
+		</div>
+		<div class="channel-create-div">
+			<button routerLink="/manageChannel" class="channel-create-btn" type="button">Create</button>
+		</div>
+	</div>
+</ion-content>
