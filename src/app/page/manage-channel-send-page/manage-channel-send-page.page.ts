@@ -11,4 +11,16 @@ export class ManageChannelSendPagePage implements OnInit {
 
     ngOnInit() {}
 
+    popupvalidity() {
+    	document.getElementById("popupdiv").style.display = "block"
+    }
+
+    closepopup() {
+    	document.getElementById("popupdiv").style.display = "none"
+    }
+
+    savetimedate() {
+    	document.getElementById("popupdiv").style.display = "none"
+    }
+
 }

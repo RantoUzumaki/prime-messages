@@ -47,6 +47,10 @@ const routes: Routes = [
     path: 'managechannelsend',
     loadChildren: () => import('./page/manage-channel-send-page/manage-channel-send-page.module').then( m => m.ManageChannelSendPagePageModule)
   },
+  {
+    path: 'managechannelinfo',
+    loadChildren: () => import('./page/manage-channel-info-page/manage-channel-info-page.module').then( m => m.ManageChannelInfoPagePageModule)
+  },
 ];
 
 @NgModule({
